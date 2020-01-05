@@ -1,0 +1,30 @@
+.box {
+
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: brown;
+    box-shadow:5px 10px 4px #0f0f0f;
+    transition: 0.5s;
+    border-radius: 10px;
+
+}
+
+.box:hover{
+    transform: translate(-5px,-10px);
+    box-shadow:10px 20px 8px #0f0f0f;
+    transition: 0.5s;
+    border-radius: 10px;
+
+}
+
+.box:active{
+
+    transform: translate(2px,4px);
+    box-shadow:3px 6px 1px #0f0f0f;
+    border-radius: 10px;
+
+    transition: 0.1s;
+}
